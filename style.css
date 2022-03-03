@@ -1,0 +1,98 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Syne Mono", monospace;
+}
+.nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 12vh;
+  width: 100%;
+  background-color: rgba(19, 19, 59);
+}
+.inp {
+  /* margin-right: 70px; */
+  background: transparent;
+  margin-top: 10px;
+  height: 40px;
+  width: 300px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid white;
+  padding: 10px 20px;
+  color: white;
+  border: 1px solid darkblue;
+  font-size: 20px;
+}
+.main {
+  background-color: rgb(1, 1, 46);
+  color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: space-evenly;
+}
+.for_cards {
+  height: 550px;
+  width: 300px;
+  border: 1px solid #000;
+  background-color: rgba(19, 19, 59);
+  box-sizing: border-box;
+  border-radius: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 10px;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+.for_cards > img {
+  height: 85%;
+  width: 100%;
+  border-radius: 10px;
+}
+#for_votes {
+  background-color: rgb(1, 1, 46);
+  height: 40px;
+  width: 50px;
+  text-align: center;
+  padding-top: 5px;
+  font-size: 20px;
+  margin-left: 80%;
+  border-radius: 10px;
+}
+
+.for_overview {
+  background-color: white;
+  color: black;
+  font-size: 20px;
+  padding: 10px 10px;
+  position: absolute;
+  transition-duration: 1s;
+  visibility: hidden;
+  bottom: -100%;
+}
+.for_cards:hover .for_overview {
+  background-color: white;
+  bottom: 0;
+  visibility: visible;
+}
+.for_h1{
+    color: wheat;
+    font-size: 2rem;
+}
+
+
+
+.green {
+  color: green;
+}
+.yellow {
+  color: yellow;
+}
+.red {
+  color: red;
+}
